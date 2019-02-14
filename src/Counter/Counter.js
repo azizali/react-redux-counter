@@ -28,7 +28,7 @@ function mapDispatchToProps(dispatch) {
 
 function mapStateToProps(state) {
     return {
-        counter: state.counter
+        counter: state.counter.counter
     }
 }
 
